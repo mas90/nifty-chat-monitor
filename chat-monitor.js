@@ -8,9 +8,9 @@
 // @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
 //@grant       GM_getResourceText
 //@grant       GM_addStyle
-//@resource style https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor.css
-//@resource highlight https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor-highlight.css
-//@resource malc-input https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor-input.css
+//@resource style https://raw.githubusercontent.com/mas90/nifty-chat-monitor/master/chat-monitor.css
+//@resource highlight https://raw.githubusercontent.com/mas90/nifty-chat-monitor/master/chat-monitor-highlight.css
+//@resource malc-input https://raw.githubusercontent.com/mas90/nifty-chat-monitor/master/chat-monitor-input.css
 // ==/UserScript==
 
 let getQS = (str)=>{let a, q = {},r = /([^?=&\r\n]+)(?:=([^&\r\n]*))?/g;while ((a = r.exec(str)) !== null) {q[a[1]] = a[2]||'';}return q;};
