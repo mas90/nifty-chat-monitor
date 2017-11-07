@@ -10,6 +10,7 @@
 //@grant       GM_addStyle
 //@resource style https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor.css
 //@resource highlight https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor-highlight.css
+//@resource malc-input https://raw.githubusercontent.com/paul-lrr/nifty-chat-monitor/master/chat-monitor-input.css
 // ==/UserScript==
 
 let getQS = (str)=>{let a, q = {},r = /([^?=&\r\n]+)(?:=([^&\r\n]*))?/g;while ((a = r.exec(str)) !== null) {q[a[1]] = a[2]||'';}return q;};
@@ -81,3 +82,5 @@ var style = GM_getResourceText('style');
 GM_addStyle(style);
 var highlight = GM_getResourceText('highlight');
 GM_addStyle(highlight);
+var malcinput = GM_getResourceText('malc-input');
+GM_addStyle(malcinput);

@@ -1,0 +1,9 @@
+/* keep chat input box --malc */
+.chat-interface {
+	display: block !important;
+	background: black;
+	margin-bottom: -111px;
+}
+.chat-room {
+	margin-bottom: 111px;
+}
