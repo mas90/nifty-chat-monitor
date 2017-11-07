@@ -7,6 +7,13 @@
 .chat-room {
 	margin-bottom: 111px;
 }
-.chat_text_input, .chat-interface, .chat-interface__submit {
-	font-size: 2.4rem;
+select.form__input,
+textarea.form__input,
+.form__input[type=text],
+.form__input[type=email],
+.form__input[type=password],
+.form__input[type=search],
+.chat-interface,
+.chat-interface__submit {
+	font-size: 2.4rem !important;
 }
